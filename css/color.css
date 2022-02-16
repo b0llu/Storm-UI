@@ -1,0 +1,50 @@
+/* ------------------------------ colors ------------------- */
+.palette {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.palette>div {
+    width: 120px;
+    height: 120px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: none;
+}
+
+.palette-primary {
+    background-color: #66e8f6;
+}
+
+.palette-secondary {
+    background-color: #c3c5c7;
+}
+
+.palette-header {
+    background-color: #238ac5;
+}
+
+.palette-content {
+    background-color: #b6bab3;
+}
+
+.palette-alert {
+    background-color: #f44336;
+}
+
+.palette-success {
+    background-color: #4CAF50;
+}
+
+.palette-warning {
+    background-color: #FF9800;
+}
