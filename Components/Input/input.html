@@ -33,7 +33,7 @@
         </a>
       </div>
     </nav>
-    <div id="sidebar-menu" class="side-bar position-hidden">
+    <aside id="sidebar-menu" class="side-bar position-hidden">
       <div class="nested-list stick">
         <div>
           <h1 class="list-topic display-flex">Get Started <span class="margin-left"><i id="close-sidebar"
@@ -81,7 +81,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </aside>
     <div class="content">
       <i id="sidebar-toggle" class="fas fa-bars hamburger"></i>
       <h1 class="content-title">Input</h1>
@@ -94,15 +94,15 @@
       <p class="sub-content">Label Input has a label present at the top of the input field. They can be customized to
         show error error-message, and change color accordingly.
         <div class="content-container">
-          <div class="input-group">
+          <form class="input-group">
             <label>Username</label>
             <input class="input-w" type="text">
-          </div>
-          <div class="input-group err">
+          </form>
+          <form class="input-group err">
             <label>Password</label>
             <input class="input-w" type="text">
             <p class="err-msg">Wrong Password. Try again.</p>
-          </div>
+          </form>
         </div>
       </p>
       <iframe class="iframe-h-45"
@@ -114,10 +114,10 @@
       <p class="sub-content">Placeholder Input has a text present inside of the input field. They can be customized to
         show error.
         <div class="content-container">
-          <div class="input-group">
+          <form class="input-group">
             <label>Email</label>
             <input class="input-w" type="text" placeholder="Email Id">
-          </div>
+          </form>
           <div class="input-group">
             <label>Password</label>
             <input class="input-w" type="text" placeholder="Enter Password">
