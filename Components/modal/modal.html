@@ -5,11 +5,6 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../../css/header.css" />
-  <link rel="stylesheet" href="../../css/sidebar.css" />
-  <link rel="stylesheet" href="../../css/content.css" />
-  <link rel="stylesheet" href="../../css/divider.css" />
-  <link rel="stylesheet" href="../../css/container.css" />
   <link rel="stylesheet" href="../../css/media-query.css" />
   <link rel="stylesheet" href="https://storm-components.netlify.app/components.css" />
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -34,7 +29,7 @@
       </div>
     </nav>
     <div id="sidebar-menu" class="side-bar position-hidden">
-      <div class="nested-list stick">
+      <aside class="nested-list stick">
         <div>
           <h1 class="list-topic display-flex">Get Started <span class="margin-left"><i id="close-sidebar"
                 class="fas fa-times-circle"></i></span></h1>
@@ -80,7 +75,7 @@
             <li><a class="link-hover" href="../grid/grid.html">Grid System</a></li>
           </ul>
         </div>
-      </div>
+      </aside>
     </div>
     <div class="content">
       <i id="sidebar-toggle" class="fas fa-bars hamburger"></i>
@@ -111,11 +106,11 @@
           </div>
         </div>
       </p>
-      <iframe class="iframe-h-63"
+      <iframe class="iframe-h-57"
         src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=777&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520button%2520to%2520open%2520the%2520modal%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%2520id%253D%2522example-modal%2522%253EClick%2520Me%253C%252Fbutton%253E%250A%250A%253C%21--%2520modal%2520content%2520--%253E%250A%253Cdiv%2520class%253D%2522modal-container%2522%2520id%253D%2522example-modal-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2522%2520id%253D%2522example-modal-close%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2520text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2509%253Ch4%253EThis%2520is%2520a%2520Modal%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2509%253Cp%253EThis%2520is%2520the%2520Modal%2520Text%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-Container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2509%253Ca%2520class%253D%2522link-btn%2522%2520id%253D%2522example-modal-back%2522%253EGo%2520Back%253C%252Fa%253E%2520%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%2520%2520%250A%253C%252Fdiv%253E%2520%2520"
         sandbox="allow-scripts allow-same-origin">
       </iframe>
-      <iframe class="iframe-h-56"
+      <iframe class="iframe-h-50"
         src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=javascript&width=777&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Java%2520Script%2520--%253E%250A%250Aconst%2520modal%2520%253D%2520document.querySelector%28%2522%2523example-modal%2522%29%253B%250Aconst%2520modalContainer%2520%253D%2520document.querySelector%28%2522%2523example-modal-container%2522%29%253B%250Aconst%2520modalCloseBtn%2520%253D%2520document.querySelector%28%2522%2523example-modal-close%2522%29%253B%250Aconst%2520modalBackBtn%2520%253D%2520document.querySelector%28%2522%2523example-modal-back%2522%29%253B%250A%250Amodal.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520modalContainer.classList.add%28%2522active%2522%29%253B%250A%2520%2520document.body.style.overflow%2520%253D%2520%2522hidden%2522%253B%250A%257D%29%253B%250A%250AmodalCloseBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520modalContainer.classList.remove%28%2522active%2522%29%253B%250A%2520%2520document.body.style.overflow%2520%253D%2520%2522visible%2522%253B%250A%257D%29%253B%250A"
         sandbox="allow-scripts allow-same-origin">
       </iframe>

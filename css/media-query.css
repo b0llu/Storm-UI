@@ -1,3 +1,12 @@
+@import url('./color.css');
+@import url('./conclusion.css');
+@import url('./container.css');
+@import url('./content.css');
+@import url('./divider.css');
+@import url('./header.css');
+@import url('./sidebar.css');
+@import url('./typography.css');
+
 @media screen and (max-width: 1500px) {
   .icon-container {
     margin-right: 0;
