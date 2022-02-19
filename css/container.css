@@ -1,0 +1,121 @@
+/*--------------------------- Main container -------------------------*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "nav nav nav nav nav"
+    "... sidebar contentarea contentarea contentarea"
+    "... sidebar contentarea contentarea contentarea"
+    "... sidebar contentarea contentarea contentarea";
+}
+
+.navbar {
+  grid-area: nav;
+}
+
+.side-bar {
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: contentarea;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+
+iframe {
+  width: 100%;
+}
+
+.iframe-h-63 {
+  height: 63rem;
+}
+
+.iframe-h-56 {
+  height: 56rem;
+}
+
+.iframe-h-50 {
+  height: 50rem;
+}
+
+.iframe-h-47 {
+  height: 47rem;
+}
+
+.iframe-h-45 {
+  height: 45rem;
+}
+
+.iframe-h-41 {
+  height: 41rem;
+}
+
+.iframe-h-40 {
+  height: 40rem;
+}
+
+.iframe-h-36 {
+  height: 36rem;
+}
+
+.iframe-h-35 {
+  height: 35rem;
+}
+
+.iframe-h-33 {
+  height: 33rem;
+}
+
+.iframe-h-32 {
+  height: 32rem;
+}
+
+.iframe-h-30 {
+  height: 30rem;
+}
+
+.iframe-h-28 {
+  height: 28rem;
+}
+
+.iframe-h-26 {
+  height: 26rem;
+}
+
+.iframe-h-25 {
+  height: 25rem;
+}
+
+i.hamburger {
+  position: sticky;
+  top: 1rem;
+  font-size: 3rem;
+  display: none;
+  width: fit-content;
+  background-color: var(--default-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.margin-left {
+  margin-left: auto;
+  color: var(--content-color);
+  display: none;
+}
+
+.margin-left:hover {
+  color: var(--primary-color);
+  transition: 0.2s ease-in-out;
+}
+
+.display-flex {
+  display: flex;
+}

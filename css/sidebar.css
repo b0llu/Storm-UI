@@ -1,0 +1,43 @@
+/* ------------ sidebar ---------------- */
+
+.side-bar {
+  color: var(--for-theme);
+  list-style: none;
+  margin-right: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.stick {
+  position: sticky;
+  top: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--content-color);
+}
+
+.list-topic {
+  font-weight: 500;
+  border-bottom: 1px solid rgb(77, 74, 74);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  color: var(--for-theme);
+}
+
+.list-subtopic {
+  line-height: 4.5rem;
+  font-size: 2rem;
+  list-style-type: none;
+}
+
+.link-active {
+  color: var(--primary-color);
+}
+
+.link-hover:hover {
+  color: var(--primary-color);
+}
