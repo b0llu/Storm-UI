@@ -11,7 +11,7 @@ To start using the components in your project, Copy-paste the stylesheet `<link>
 
 I have created a different Repo for my component CSS. Please check the given link to see my CSS of Components,
 ```
-https://github.com/b0llu/storm-components/tree/developer
+<a href='https://github.com/b0llu/storm-components/tree/developer'></a>
 ```
 
 ### Storm UI contains the following components
