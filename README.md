@@ -8,6 +8,9 @@ To start using the components in your project, Copy-paste the stylesheet `<link>
     href="https://storm-components.netlify.app/components.css"
     />
 ```   
+I have created a different Repo for my component CSS. Please check the given link to see my CSS of Components,
+
+https://github.com/b0llu/storm-components/tree/developer
 
 ---
 
