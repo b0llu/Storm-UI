@@ -15,12 +15,12 @@ https://github.com/b0llu/storm-components/tree/developer
 ---
 
 # Strom UI Desktop View
-(desktop-view.gif)
+![desktop](desktop-view.gif)
 
 ---
 
 # Strom UI Mobile View
-(mobile-view.gif)
+![mobile](mobile-view.gif)
 
 ---
 
