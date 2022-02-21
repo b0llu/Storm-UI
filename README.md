@@ -9,6 +9,16 @@ To start using the components in your project, Copy-paste the stylesheet `<link>
     />
 ```   
 
+---
+
+![Strom UI Desktop View](desktop-view.gif)
+
+---
+
+![Strom UI Mobile View](mobile-view.gif)
+
+---
+
 ### Storm UI contains the following components
 
 - [Avatar](#Avatar)
@@ -195,10 +205,6 @@ You will find the following types of *Grid System* on https://storm-ui.netlify.a
 
 <a href="https://twitter.com/TheBestDhruv" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/dhruv-samant-4a527b218/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-
----
-
-![Strom UI Image](readme-img.jpg)
 
 ---
 
