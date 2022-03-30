@@ -27,6 +27,7 @@ nav {
 
 .icon-container a {
   margin: 0 3rem;
+  cursor: pointer;
 }
 
 .icon-container i:hover {
