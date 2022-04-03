@@ -1,5 +1,5 @@
 ## Comments.md 
-[comments.md]()
+[comments.md](https://github.com/b0llu/Storm-UI/blob/temp-developer/comments.md)
 
 ## Quick Start
 
